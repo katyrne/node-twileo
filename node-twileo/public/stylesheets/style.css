@@ -1,0 +1,37 @@
+.bg-3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  .active>a {
+    color: #1abc9c !important;;
+  }
+  form{
+      border: 1px solid grey;
+  }
+  .form-control{
+    border: 0px !important;
+}
+.error{
+    font-size: 14px;
+    color: red;
+}
+.btn{
+    background-color: rgba(128, 128, 128,0.2);
+}

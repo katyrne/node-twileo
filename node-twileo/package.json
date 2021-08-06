@@ -1,0 +1,25 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "csvtojson": "^2.0.10",
+    "debug": "~2.6.3",
+    "dotenv": "^10.0.0",
+    "ejs": "2.5.7",
+    "express": "~4.15.2",
+    "express-fileupload": "^1.2.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "multer": "^1.4.2",
+    "node-env-run": "^4.0.2",
+    "serve-favicon": "~2.4.2",
+    "twilio": "^3.66.1",
+    "xlsx": "^0.17.0"
+  }
+}
